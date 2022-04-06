@@ -23,7 +23,7 @@ const PageLoader: React.FC = () => {
     <Wrapper>
       {/* <Spinner /> */}
       <AnimatedImg>
-        <img src="logo.png" alt="loading-icon" />
+        <img src="logo2.png" alt="loading-icon" />
       </AnimatedImg>
     </Wrapper>
   )

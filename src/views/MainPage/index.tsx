@@ -268,7 +268,7 @@ const Connect = () => {
   return (
     <MainPage>
       <SectionCon>
-        <LogoImage src={require("../../assets/image/logo.png").default} ml={"10vw"} alt="" />
+        <LogoImage src={require("../../assets/image/logo2.png").default} ml={"10vw"} alt="" />
         <ConButton ml="auto" name="connect" className={status === WalletStatus.WALLET_CONNECTED ? "connect" : ""} onClick={() => ConnectShow()}>
           <Title size="23px" color="white">
             {status === WalletStatus.WALLET_CONNECTED ? formatAddressShort(userWallet?.walletAddress!) : "Connect"}
